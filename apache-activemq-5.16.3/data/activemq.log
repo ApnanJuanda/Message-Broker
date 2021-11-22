@@ -1,0 +1,592 @@
+2021-11-20 19:01:17,702 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a034a1: startup date [Sat Nov 20 19:01:17 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2021-11-20 19:01:19,847 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 19:01:20,149 | INFO  | PListStore:[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2021-11-20 19:01:20,319 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1282-1637409680173-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 19:01:20,350 | INFO  | Listening for connections at: tcp://LAPTOP-MSNJ2LSA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-11-20 19:01:20,352 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-11-20 19:01:20,359 | INFO  | Listening for connections at: amqp://LAPTOP-MSNJ2LSA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-11-20 19:01:20,361 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-11-20 19:01:20,370 | INFO  | Listening for connections at: stomp://LAPTOP-MSNJ2LSA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-11-20 19:01:20,372 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-11-20 19:01:20,382 | INFO  | Listening for connections at: mqtt://LAPTOP-MSNJ2LSA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-11-20 19:01:20,385 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-11-20 19:01:20,396 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2021-11-20 19:01:20,561 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2021-11-20 19:01:20,862 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@79f7836c{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2021-11-20 19:01:21,016 | INFO  | Listening for connections at ws://LAPTOP-MSNJ2LSA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2021-11-20 19:01:21,017 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-11-20 19:01:21,021 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1282-1637409680173-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 19:01:21,022 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 19:01:21,030 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb only has 5150 mb of usable space. - resetting to maximum available disk space: 5150 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 19:01:21,037 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\win64\..\..\data only has 5150 mb of usable space. - resetting to maximum available disk space: 5150 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 19:01:24,213 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2021-11-20 19:01:24,217 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2021-11-20 19:03:08,234 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1282-1637409680173-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-11-20 19:03:08,240 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-20 19:03:08,241 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-20 19:03:08,242 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-20 19:03:08,243 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-20 19:03:08,253 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-20 19:03:08,258 | INFO  | PListStore:[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\win64\..\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2021-11-20 19:03:08,258 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-11-20 19:03:08,258 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-11-20 19:03:08,260 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-11-20 19:03:08,275 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1282-1637409680173-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-11-20 19:03:08,276 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1282-1637409680173-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-11-20 19:03:08,276 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@a034a1: startup date [Sat Nov 20 19:01:17 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2021-11-20 20:36:03,235 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@50d8bb46: startup date [Sat Nov 20 20:36:03 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2021-11-20 20:36:04,245 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 20:36:04,309 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2021-11-20 20:36:04,332 | INFO  | PListStore:[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2021-11-20 20:36:04,503 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1156-1637415364343-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 20:36:04,526 | INFO  | Listening for connections at: tcp://LAPTOP-MSNJ2LSA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-11-20 20:36:04,528 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-11-20 20:36:04,533 | INFO  | Listening for connections at: amqp://LAPTOP-MSNJ2LSA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-11-20 20:36:04,534 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-11-20 20:36:04,540 | INFO  | Listening for connections at: stomp://LAPTOP-MSNJ2LSA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-11-20 20:36:04,541 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-11-20 20:36:04,547 | INFO  | Listening for connections at: mqtt://LAPTOP-MSNJ2LSA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-11-20 20:36:04,548 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-11-20 20:36:04,557 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2021-11-20 20:36:04,648 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2021-11-20 20:36:04,809 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3be6ca80{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2021-11-20 20:36:04,884 | INFO  | Listening for connections at ws://LAPTOP-MSNJ2LSA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2021-11-20 20:36:04,885 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-11-20 20:36:04,886 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1156-1637415364343-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 20:36:04,887 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 20:36:04,891 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb only has 5333 mb of usable space. - resetting to maximum available disk space: 5333 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 20:36:04,894 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\win64\..\..\data only has 5333 mb of usable space. - resetting to maximum available disk space: 5333 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 20:36:05,862 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2021-11-20 20:36:05,863 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2021-11-20 21:30:46,386 | WARN  | /admin/deleteDestination.action | org.eclipse.jetty.server.HttpChannel | qtp807264840-46
+javax.servlet.ServletException: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:388)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:633)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:380)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:386)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:567)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	... 17 more
+Caused by: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1459)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:228)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:567)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	... 19 more
+Caused by: java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.apache.activemq.web.handler.BindingBeanNameUrlHandlerMapping.getHandlerInternal(BindingBeanNameUrlHandlerMapping.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:353)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1160)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:940)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 54 more
+2021-11-20 21:53:28,574 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1156-1637415364343-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-11-20 21:53:28,580 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-20 21:53:28,580 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-20 21:53:28,583 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-20 21:53:28,586 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-20 21:53:28,586 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-20 21:53:28,590 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-20 21:53:28,593 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: stomp://0.0.0.0:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-20 21:53:28,596 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: stomp://0.0.0.0:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-20 21:53:28,593 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-20 21:53:28,601 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-20 21:53:28,627 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-20 21:53:28,657 | INFO  | PListStore:[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\win64\..\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2021-11-20 21:53:28,658 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-11-20 21:53:28,658 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-11-20 21:53:28,659 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-11-20 21:53:28,674 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1156-1637415364343-0:1) uptime 1 hour 17 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-11-20 21:53:28,674 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1156-1637415364343-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-11-20 21:53:28,675 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@50d8bb46: startup date [Sat Nov 20 20:36:03 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2021-11-20 21:54:02,694 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@3bf81f31: startup date [Sat Nov 20 21:54:02 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2021-11-20 21:54:03,545 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 21:54:03,605 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2021-11-20 21:54:03,653 | INFO  | PListStore:[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2021-11-20 21:54:03,822 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-12275-1637420043665-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 21:54:03,879 | INFO  | Listening for connections at: tcp://LAPTOP-MSNJ2LSA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-11-20 21:54:03,881 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-11-20 21:54:03,886 | INFO  | Listening for connections at: amqp://LAPTOP-MSNJ2LSA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-11-20 21:54:03,888 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-11-20 21:54:03,893 | INFO  | Listening for connections at: stomp://LAPTOP-MSNJ2LSA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-11-20 21:54:03,894 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-11-20 21:54:03,899 | INFO  | Listening for connections at: mqtt://LAPTOP-MSNJ2LSA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-11-20 21:54:03,900 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-11-20 21:54:03,907 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2021-11-20 21:54:03,979 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2021-11-20 21:54:04,131 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@4a2a04e2{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2021-11-20 21:54:04,195 | INFO  | Listening for connections at ws://LAPTOP-MSNJ2LSA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2021-11-20 21:54:04,197 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-11-20 21:54:04,198 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-12275-1637420043665-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 21:54:04,199 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 21:54:04,203 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb only has 5824 mb of usable space. - resetting to maximum available disk space: 5824 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 21:54:04,206 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\win64\..\..\data only has 5824 mb of usable space. - resetting to maximum available disk space: 5824 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-11-20 21:54:05,114 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2021-11-20 21:54:05,114 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2021-11-20 22:18:01,783 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Sat Nov 20 22:18:01 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-11-20 22:18:02,884 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-11-20 22:18:02,938 | INFO  | Page File: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2021-11-20 22:18:02,980 | INFO  | Page File: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 10 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2021-11-20 22:18:02,982 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-11-20 22:18:03,004 | INFO  | Recovering from the journal @1:1980 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-11-20 22:18:03,019 | INFO  | Recovery replayed 1 operations from the journal in 0.03 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-11-20 22:18:03,032 | INFO  | PListStore:[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-11-20 22:18:03,219 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-4295-1637421483045-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-11-20 22:18:03,240 | INFO  | Listening for connections at: tcp://LAPTOP-MSNJ2LSA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-20 22:18:03,243 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-11-20 22:18:03,250 | INFO  | Listening for connections at: amqp://LAPTOP-MSNJ2LSA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-20 22:18:03,254 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-20 22:18:03,260 | INFO  | Listening for connections at: stomp://LAPTOP-MSNJ2LSA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-20 22:18:03,262 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-20 22:18:03,267 | INFO  | Listening for connections at: mqtt://LAPTOP-MSNJ2LSA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-20 22:18:03,269 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-11-20 22:18:03,276 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-20 22:18:03,370 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-20 22:18:03,508 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@70f59913{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-11-20 22:18:03,589 | INFO  | Listening for connections at ws://LAPTOP-MSNJ2LSA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-11-20 22:18:03,590 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-11-20 22:18:03,592 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-4295-1637421483045-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-11-20 22:18:03,595 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-11-20 22:18:03,601 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb only has 5805 mb of usable space. - resetting to maximum available disk space: 5805 mb | org.apache.activemq.broker.BrokerService | main
+2021-11-20 22:18:03,606 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data only has 5805 mb of usable space. - resetting to maximum available disk space: 5805 mb | org.apache.activemq.broker.BrokerService | main
+2021-11-20 22:18:04,487 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-20 22:18:04,487 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-21 06:51:43,759 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Sun Nov 21 06:51:43 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-11-21 06:51:47,408 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-11-21 06:51:47,647 | INFO  | Page File: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2021-11-21 06:51:47,659 | INFO  | Page File: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2021-11-21 06:51:47,665 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-11-21 06:51:47,755 | INFO  | PListStore:[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-11-21 06:51:47,961 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-5065-1637452307789-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-11-21 06:51:48,137 | INFO  | Listening for connections at: tcp://LAPTOP-MSNJ2LSA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 06:51:48,142 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 06:51:48,168 | INFO  | Listening for connections at: amqp://LAPTOP-MSNJ2LSA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 06:51:48,180 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 06:51:48,202 | INFO  | Listening for connections at: stomp://LAPTOP-MSNJ2LSA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 06:51:48,229 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 06:51:48,243 | INFO  | Listening for connections at: mqtt://LAPTOP-MSNJ2LSA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 06:51:48,249 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 06:51:48,273 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-21 06:51:48,544 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-21 06:51:48,955 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@623e088f{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-11-21 06:51:49,148 | INFO  | Listening for connections at ws://LAPTOP-MSNJ2LSA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-11-21 06:51:49,151 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 06:51:49,156 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-5065-1637452307789-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-11-21 06:51:49,158 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-11-21 06:51:49,168 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb only has 5716 mb of usable space. - resetting to maximum available disk space: 5716 mb | org.apache.activemq.broker.BrokerService | main
+2021-11-21 06:51:49,179 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data only has 5716 mb of usable space. - resetting to maximum available disk space: 5716 mb | org.apache.activemq.broker.BrokerService | main
+2021-11-21 06:51:52,087 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-21 06:51:52,089 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-21 06:56:29,454 | WARN  | Transport Connection to: tcp://0:0:0:0:0:0:0:1:5215 failed | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///0:0:0:0:0:0:0:1:5215@61616
+java.io.IOException: Frame size of 1 GB larger than max allowed 100 MB
+	at org.apache.activemq.util.IOExceptionSupport.createFrameSizeException(IOExceptionSupport.java:53)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:270)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-21 06:56:30,592 | WARN  | Transport Connection to: tcp://0:0:0:0:0:0:0:1:5216 failed | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///0:0:0:0:0:0:0:1:5216@61616
+java.io.IOException: Frame size of 1 GB larger than max allowed 100 MB
+	at org.apache.activemq.util.IOExceptionSupport.createFrameSizeException(IOExceptionSupport.java:53)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:270)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-21 06:56:31,802 | WARN  | Transport Connection to: tcp://0:0:0:0:0:0:0:1:5223 failed | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///0:0:0:0:0:0:0:1:5223@61616
+java.io.IOException: Frame size of 1 GB larger than max allowed 100 MB
+	at org.apache.activemq.util.IOExceptionSupport.createFrameSizeException(IOExceptionSupport.java:53)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:270)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-21 06:56:36,834 | WARN  | Transport Connection to: tcp://0:0:0:0:0:0:0:1:5224 failed | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///0:0:0:0:0:0:0:1:5224@61616
+java.io.IOException: Frame size of 1 GB larger than max allowed 100 MB
+	at org.apache.activemq.util.IOExceptionSupport.createFrameSizeException(IOExceptionSupport.java:53)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:270)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-21 06:57:06,837 | WARN  | Transport Connection to: tcp://0:0:0:0:0:0:0:1:5225 failed | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker
+org.apache.activemq.transport.InactivityIOException: Channel was inactive (no connection attempt made) for too (>30000) long: tcp://0:0:0:0:0:0:0:1:5225
+	at org.apache.activemq.transport.AbstractInactivityMonitor$1$1.run(AbstractInactivityMonitor.java:93)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-21 14:04:39,070 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Sun Nov 21 14:04:39 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-11-21 14:04:39,959 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-11-21 14:04:40,073 | INFO  | Page File: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2021-11-21 14:04:40,078 | INFO  | Page File: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2021-11-21 14:04:40,081 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-11-21 14:04:40,125 | INFO  | PListStore:[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-11-21 14:04:40,300 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1138-1637478280138-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-11-21 14:04:40,382 | INFO  | Listening for connections at: tcp://LAPTOP-MSNJ2LSA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 14:04:40,383 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 14:04:40,390 | INFO  | Listening for connections at: amqp://LAPTOP-MSNJ2LSA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 14:04:40,393 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 14:04:40,398 | INFO  | Listening for connections at: stomp://LAPTOP-MSNJ2LSA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 14:04:40,401 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 14:04:40,406 | INFO  | Listening for connections at: mqtt://LAPTOP-MSNJ2LSA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 14:04:40,408 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 14:04:40,415 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-21 14:04:40,518 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-21 14:04:40,684 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@66565121{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-11-21 14:04:40,764 | INFO  | Listening for connections at ws://LAPTOP-MSNJ2LSA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-11-21 14:04:40,765 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 14:04:40,766 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1138-1637478280138-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-11-21 14:04:40,769 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-11-21 14:04:40,773 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb only has 3510 mb of usable space. - resetting to maximum available disk space: 3510 mb | org.apache.activemq.broker.BrokerService | main
+2021-11-21 14:04:40,778 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data only has 3510 mb of usable space. - resetting to maximum available disk space: 3510 mb | org.apache.activemq.broker.BrokerService | main
+2021-11-21 14:04:41,741 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-21 14:04:41,743 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-21 17:19:25,137 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1138-1637478280138-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-21
+2021-11-21 17:19:25,144 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-21 17:19:25,147 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-21 17:19:25,147 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-21 17:19:25,152 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: stomp://0.0.0.0:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-21 17:19:25,151 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-21 17:19:25,157 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: stomp://0.0.0.0:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-21 17:19:25,154 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-21 17:19:25,160 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-21 17:19:25,181 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-21 17:19:25,188 | INFO  | PListStore:[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-21
+2021-11-21 17:19:25,190 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-11-21 17:19:25,191 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-11-21 17:19:25,193 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-11-21 17:19:25,210 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1138-1637478280138-0:1) uptime 3 hours 14 minutes | org.apache.activemq.broker.BrokerService | Thread-21
+2021-11-21 17:19:25,211 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1138-1637478280138-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-21
+2021-11-21 17:19:25,213 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Sun Nov 21 14:04:39 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-21
+2021-11-21 17:19:43,025 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Sun Nov 21 17:19:43 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-11-21 17:19:43,925 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:19:44,028 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-11-21 17:19:44,056 | INFO  | PListStore:[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-11-21 17:19:44,222 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-28172-1637489984066-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:19:44,288 | INFO  | Listening for connections at: tcp://LAPTOP-MSNJ2LSA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 17:19:44,290 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 17:19:44,295 | INFO  | Listening for connections at: amqp://LAPTOP-MSNJ2LSA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 17:19:44,297 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 17:19:44,301 | INFO  | Listening for connections at: stomp://LAPTOP-MSNJ2LSA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 17:19:44,303 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 17:19:44,308 | INFO  | Listening for connections at: mqtt://LAPTOP-MSNJ2LSA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 17:19:44,310 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 17:19:44,315 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-21 17:19:44,430 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-21 17:19:44,636 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@623e088f{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-11-21 17:19:44,743 | INFO  | Listening for connections at ws://LAPTOP-MSNJ2LSA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-11-21 17:19:44,745 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 17:19:44,747 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-28172-1637489984066-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:19:44,748 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:19:44,753 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb only has 2985 mb of usable space. - resetting to maximum available disk space: 2985 mb | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:19:44,759 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data only has 2984 mb of usable space. - resetting to maximum available disk space: 2984 mb | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:19:45,499 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-21 17:19:45,500 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-21 17:22:28,724 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-28172-1637489984066-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-21
+2021-11-21 17:22:28,737 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-21 17:22:28,740 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-21 17:22:28,743 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-21 17:22:28,746 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-21 17:22:28,757 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-21 17:22:28,762 | INFO  | PListStore:[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-21
+2021-11-21 17:22:28,763 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-11-21 17:22:28,764 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-11-21 17:22:28,766 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-11-21 17:22:28,786 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-28172-1637489984066-0:1) uptime 2 minutes | org.apache.activemq.broker.BrokerService | Thread-21
+2021-11-21 17:22:28,787 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-28172-1637489984066-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-21
+2021-11-21 17:22:28,787 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Sun Nov 21 17:19:43 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-21
+2021-11-21 17:22:34,020 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Sun Nov 21 17:22:34 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-11-21 17:22:34,753 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:22:34,849 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-11-21 17:22:34,877 | INFO  | PListStore:[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-11-21 17:22:35,045 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1067-1637490154887-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:22:35,091 | INFO  | Listening for connections at: tcp://LAPTOP-MSNJ2LSA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 17:22:35,093 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 17:22:35,098 | INFO  | Listening for connections at: amqp://LAPTOP-MSNJ2LSA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 17:22:35,100 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 17:22:35,105 | INFO  | Listening for connections at: stomp://LAPTOP-MSNJ2LSA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 17:22:35,108 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 17:22:35,113 | INFO  | Listening for connections at: mqtt://LAPTOP-MSNJ2LSA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 17:22:35,115 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 17:22:35,120 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-21 17:22:35,187 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-21 17:22:35,299 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@623e088f{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-11-21 17:22:35,357 | INFO  | Listening for connections at ws://LAPTOP-MSNJ2LSA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-11-21 17:22:35,359 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 17:22:35,360 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1067-1637490154887-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:22:35,363 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:22:35,367 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb only has 2996 mb of usable space. - resetting to maximum available disk space: 2996 mb | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:22:35,371 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data only has 2996 mb of usable space. - resetting to maximum available disk space: 2996 mb | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:22:36,121 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-21 17:22:36,122 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-21 17:29:35,722 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1067-1637490154887-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-11-21 17:29:35,728 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-21 17:29:35,732 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-21 17:29:35,731 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-21 17:29:35,738 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-21 17:29:35,741 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-21 17:29:35,748 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-21 17:29:35,748 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: stomp://0.0.0.0:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-21 17:29:35,761 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: stomp://0.0.0.0:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-21 17:29:35,771 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-21 17:29:35,782 | INFO  | PListStore:[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2021-11-21 17:29:35,783 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-11-21 17:29:35,787 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-11-21 17:29:35,789 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-11-21 17:29:35,820 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1067-1637490154887-0:1) uptime 7 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-11-21 17:29:35,823 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1067-1637490154887-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-11-21 17:29:35,827 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Sun Nov 21 17:22:34 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2021-11-21 17:29:40,301 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Sun Nov 21 17:29:40 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-11-21 17:29:41,585 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:29:41,709 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-11-21 17:29:41,749 | INFO  | PListStore:[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-11-21 17:29:41,928 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-15454-1637490581766-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:29:41,994 | INFO  | Listening for connections at: tcp://LAPTOP-MSNJ2LSA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 17:29:41,997 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 17:29:42,004 | INFO  | Listening for connections at: amqp://LAPTOP-MSNJ2LSA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 17:29:42,007 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 17:29:42,013 | INFO  | Listening for connections at: stomp://LAPTOP-MSNJ2LSA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 17:29:42,015 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 17:29:42,020 | INFO  | Listening for connections at: mqtt://LAPTOP-MSNJ2LSA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 17:29:42,022 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 17:29:42,029 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-21 17:29:42,116 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-21 17:29:42,279 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@623e088f{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-11-21 17:29:42,370 | INFO  | Listening for connections at ws://LAPTOP-MSNJ2LSA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-11-21 17:29:42,372 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 17:29:42,374 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-15454-1637490581766-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:29:42,376 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:29:42,382 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\kahadb only has 2979 mb of usable space. - resetting to maximum available disk space: 2979 mb | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:29:42,388 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data only has 2979 mb of usable space. - resetting to maximum available disk space: 2979 mb | org.apache.activemq.broker.BrokerService | main
+2021-11-21 17:29:43,666 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-21 17:29:43,667 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-21 18:02:19,726 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-15454-1637490581766-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-21
+2021-11-21 18:02:19,732 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-21 18:02:19,734 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-21 18:02:19,735 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-21 18:02:19,737 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-21 18:02:19,737 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: mqtt://0.0.0.0:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-21 18:02:19,740 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: mqtt://0.0.0.0:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-21 18:02:19,744 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-21 18:02:19,748 | INFO  | PListStore:[C:\Users\ASUS\Downloads\apache-activemq-5.16.3-bin\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-21
+2021-11-21 18:02:19,748 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-11-21 18:02:19,749 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-11-21 18:02:19,750 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-11-21 18:02:19,769 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-15454-1637490581766-0:1) uptime 32 minutes | org.apache.activemq.broker.BrokerService | Thread-21
+2021-11-21 18:02:19,769 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-15454-1637490581766-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-21
+2021-11-21 18:02:19,771 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Sun Nov 21 17:29:40 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-21
+2021-11-21 22:18:31,938 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Sun Nov 21 22:18:31 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-11-21 22:18:32,724 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Jatis Mobile\coreSystem\apache-activemq-5.16.3\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-11-21 22:18:32,845 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-11-21 22:18:32,883 | INFO  | PListStore:[D:\Jatis Mobile\coreSystem\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-11-21 22:18:33,057 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1090-1637507912898-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-11-21 22:18:33,140 | INFO  | Listening for connections at: tcp://LAPTOP-MSNJ2LSA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 22:18:33,141 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 22:18:33,146 | INFO  | Listening for connections at: amqp://LAPTOP-MSNJ2LSA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 22:18:33,146 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 22:18:33,151 | INFO  | Listening for connections at: stomp://LAPTOP-MSNJ2LSA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 22:18:33,152 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 22:18:33,156 | INFO  | Listening for connections at: mqtt://LAPTOP-MSNJ2LSA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 22:18:33,156 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 22:18:33,162 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-21 22:18:33,255 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-21 22:18:33,459 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3da05287{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-11-21 22:18:33,557 | INFO  | Listening for connections at ws://LAPTOP-MSNJ2LSA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-11-21 22:18:33,559 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 22:18:33,560 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1090-1637507912898-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-11-21 22:18:33,562 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-11-21 22:18:34,453 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-21 22:18:34,454 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-21 23:05:33,941 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Sun Nov 21 23:05:33 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-11-21 23:05:34,725 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Jatis Mobile\coreSystem\apache-activemq-5.16.3\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-11-21 23:05:34,836 | INFO  | Page File: D:\Jatis Mobile\coreSystem\apache-activemq-5.16.3\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2021-11-21 23:05:34,844 | INFO  | Page File: D:\Jatis Mobile\coreSystem\apache-activemq-5.16.3\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2021-11-21 23:05:34,847 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-11-21 23:05:34,882 | INFO  | PListStore:[D:\Jatis Mobile\coreSystem\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-11-21 23:05:35,060 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-13506-1637510734896-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-11-21 23:05:35,143 | INFO  | Listening for connections at: tcp://LAPTOP-MSNJ2LSA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 23:05:35,144 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 23:05:35,149 | INFO  | Listening for connections at: amqp://LAPTOP-MSNJ2LSA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 23:05:35,150 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 23:05:35,154 | INFO  | Listening for connections at: stomp://LAPTOP-MSNJ2LSA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 23:05:35,154 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 23:05:35,159 | INFO  | Listening for connections at: mqtt://LAPTOP-MSNJ2LSA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-21 23:05:35,160 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 23:05:35,165 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-21 23:05:35,232 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-21 23:05:35,358 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@115667d{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-11-21 23:05:35,413 | INFO  | Listening for connections at ws://LAPTOP-MSNJ2LSA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-11-21 23:05:35,414 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-11-21 23:05:35,415 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-13506-1637510734896-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-11-21 23:05:35,418 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-11-21 23:05:36,222 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-21 23:05:36,223 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-22 00:09:51,318 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-13506-1637510734896-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-21
+2021-11-22 00:09:51,322 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-22 00:09:51,325 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-22 00:09:51,328 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-22 00:09:51,330 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-22 00:09:51,352 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-11-22 00:09:51,359 | INFO  | PListStore:[D:\Jatis Mobile\coreSystem\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-21
+2021-11-22 00:09:51,360 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-11-22 00:09:51,361 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-11-22 00:09:51,362 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-11-22 00:09:51,380 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-13506-1637510734896-0:1) uptime 1 hour 4 minutes | org.apache.activemq.broker.BrokerService | Thread-21
+2021-11-22 00:09:51,380 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-13506-1637510734896-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-21
+2021-11-22 00:09:51,382 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Sun Nov 21 23:05:33 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-21
+2021-11-22 09:49:15,427 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Mon Nov 22 09:49:15 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-11-22 09:49:16,338 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Jatis Mobile\coreSystem\apache-activemq-5.16.3\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-11-22 09:49:16,450 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-11-22 09:49:16,491 | INFO  | PListStore:[D:\Jatis Mobile\coreSystem\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-11-22 09:49:16,646 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1120-1637549356500-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-11-22 09:49:16,757 | INFO  | Listening for connections at: tcp://LAPTOP-MSNJ2LSA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-22 09:49:16,757 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-11-22 09:49:16,764 | INFO  | Listening for connections at: amqp://LAPTOP-MSNJ2LSA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-22 09:49:16,765 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-22 09:49:16,770 | INFO  | Listening for connections at: stomp://LAPTOP-MSNJ2LSA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-22 09:49:16,770 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-22 09:49:16,775 | INFO  | Listening for connections at: mqtt://LAPTOP-MSNJ2LSA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-22 09:49:16,775 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-11-22 09:49:16,781 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-22 09:49:16,905 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-22 09:49:17,112 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@f80945f{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-11-22 09:49:17,210 | INFO  | Listening for connections at ws://LAPTOP-MSNJ2LSA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-11-22 09:49:17,212 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-11-22 09:49:17,213 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1120-1637549356500-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-11-22 09:49:17,215 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-11-22 09:49:18,545 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-22 09:49:18,546 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-22 10:07:18,579 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1120-1637549356500-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-11-22 10:07:18,582 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-22 10:07:18,582 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-22 10:07:18,584 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-11-22 10:07:18,587 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-22 10:07:18,588 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-22 10:07:18,589 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-22 10:07:18,595 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2021-11-22 10:07:18,598 | INFO  | PListStore:[D:\Jatis Mobile\coreSystem\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2021-11-22 10:07:18,599 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-11-22 10:07:18,599 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-11-22 10:07:18,600 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2021-11-22 10:07:18,611 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1120-1637549356500-0:1) uptime 18 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-11-22 10:07:18,612 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1120-1637549356500-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2021-11-22 10:07:18,614 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Mon Nov 22 09:49:15 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2021-11-22 10:07:27,001 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Mon Nov 22 10:07:26 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-11-22 10:07:27,681 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Jatis Mobile\coreSystem\apache-activemq-5.16.3\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-11-22 10:07:27,774 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-11-22 10:07:27,809 | INFO  | PListStore:[D:\Jatis Mobile\coreSystem\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-11-22 10:07:27,959 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-25936-1637550447823-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-11-22 10:07:28,028 | INFO  | Listening for connections at: tcp://LAPTOP-MSNJ2LSA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-22 10:07:28,029 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-11-22 10:07:28,033 | INFO  | Listening for connections at: amqp://LAPTOP-MSNJ2LSA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-22 10:07:28,034 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-22 10:07:28,037 | INFO  | Listening for connections at: stomp://LAPTOP-MSNJ2LSA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-22 10:07:28,037 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-22 10:07:28,041 | INFO  | Listening for connections at: mqtt://LAPTOP-MSNJ2LSA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-22 10:07:28,042 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-11-22 10:07:28,047 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-22 10:07:28,110 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-22 10:07:28,205 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@ff684e1{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-11-22 10:07:28,251 | INFO  | Listening for connections at ws://LAPTOP-MSNJ2LSA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-11-22 10:07:28,252 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-11-22 10:07:28,253 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-25936-1637550447823-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-11-22 10:07:28,253 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-11-22 10:07:29,031 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-22 10:07:29,031 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-22 10:12:12,933 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-25936-1637550447823-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-23
+2021-11-22 10:12:12,937 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2021-11-22 10:12:12,937 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2021-11-22 10:12:12,940 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2021-11-22 10:12:12,941 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2021-11-22 10:12:12,947 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2021-11-22 10:12:12,949 | INFO  | PListStore:[D:\Jatis Mobile\coreSystem\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-23
+2021-11-22 10:12:12,949 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2021-11-22 10:12:12,952 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2021-11-22 10:12:12,953 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2021-11-22 10:12:12,972 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-25936-1637550447823-0:1) uptime 4 minutes | org.apache.activemq.broker.BrokerService | Thread-23
+2021-11-22 10:12:12,973 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-25936-1637550447823-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-23
+2021-11-22 10:12:12,975 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Mon Nov 22 10:07:26 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-23
+2021-11-22 10:44:59,357 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Mon Nov 22 10:44:59 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-11-22 10:45:00,100 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Jatis Mobile\coreSystem\apache-activemq-5.16.3\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-11-22 10:45:00,187 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2021-11-22 10:45:00,217 | INFO  | PListStore:[D:\Jatis Mobile\coreSystem\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-11-22 10:45:00,359 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1186-1637552700225-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-11-22 10:45:00,431 | INFO  | Listening for connections at: tcp://LAPTOP-MSNJ2LSA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-22 10:45:00,432 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-11-22 10:45:00,436 | INFO  | Listening for connections at: amqp://LAPTOP-MSNJ2LSA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-22 10:45:00,436 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-22 10:45:00,440 | INFO  | Listening for connections at: stomp://LAPTOP-MSNJ2LSA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-22 10:45:00,440 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-11-22 10:45:00,443 | INFO  | Listening for connections at: mqtt://LAPTOP-MSNJ2LSA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-11-22 10:45:00,444 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-11-22 10:45:00,449 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-22 10:45:00,510 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-11-22 10:45:00,606 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@ff684e1{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-11-22 10:45:00,652 | INFO  | Listening for connections at ws://LAPTOP-MSNJ2LSA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-11-22 10:45:00,654 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-11-22 10:45:00,654 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1186-1637552700225-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-11-22 10:45:00,655 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-11-22 10:45:01,638 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-22 10:45:01,639 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-11-22 10:50:35,305 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1186-1637552700225-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-23
+2021-11-22 10:50:35,307 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2021-11-22 10:50:35,308 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2021-11-22 10:50:35,311 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2021-11-22 10:50:35,311 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2021-11-22 10:50:35,317 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2021-11-22 10:50:35,321 | INFO  | PListStore:[D:\Jatis Mobile\coreSystem\apache-activemq-5.16.3\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-23
+2021-11-22 10:50:35,321 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2021-11-22 10:50:35,321 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2021-11-22 10:50:35,322 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2021-11-22 10:50:35,342 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1186-1637552700225-0:1) uptime 5 minutes | org.apache.activemq.broker.BrokerService | Thread-23
+2021-11-22 10:50:35,342 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:LAPTOP-MSNJ2LSA-1186-1637552700225-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-23
+2021-11-22 10:50:35,343 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@67784306: startup date [Mon Nov 22 10:44:59 ICT 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-23
