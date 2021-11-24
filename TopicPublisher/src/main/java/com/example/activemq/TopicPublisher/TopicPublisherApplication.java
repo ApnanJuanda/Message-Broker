@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+//import org.json.JSONObject;
+
 
 /*Local*/
 import com.example.activemq.TopicPublisher.model.publisherModel;
@@ -34,7 +36,9 @@ public class TopicPublisherApplication {
 		@PostMapping("/")
 		public ResponseEntity<String> publishMessage(@RequestBody publisherModel message){
 			try {
-				publisherJms.send(destinationTopic, message);
+				//String destination = message.getDestination();
+				System.out.println(message);
+				publisherJms.send(message.getTopic_destination(), message);
 				return new ResponseEntity<>("Success.", HttpStatus.OK);
 			}catch(Exception e) {
 				return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);

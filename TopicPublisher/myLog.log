@@ -1,0 +1,36 @@
+2021-11-24 12:04:31.820  INFO 28148 --- [main] c.e.a.T.TopicPublisherApplication        : Starting TopicPublisherApplication using Java 11.0.13 on LAPTOP-MSNJ2LSA with PID 28148 (D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher\target\classes started by ASUS in D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher)
+2021-11-24 12:04:31.829  INFO 28148 --- [main] c.e.a.T.TopicPublisherApplication        : No active profile set, falling back to default profiles: default
+2021-11-24 12:04:33.431  INFO 28148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-24 12:04:33.466  INFO 28148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-24 12:04:33.467  INFO 28148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-24 12:04:33.843  INFO 28148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-24 12:04:33.844  INFO 28148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1934 ms
+2021-11-24 12:04:35.234  INFO 28148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-24 12:04:35.269  INFO 28148 --- [main] c.e.a.T.TopicPublisherApplication        : Started TopicPublisherApplication in 4.004 seconds (JVM running for 4.724)
+2021-11-24 12:05:54.821  INFO 13984 --- [main] c.e.a.T.TopicPublisherApplication        : Starting TopicPublisherApplication using Java 11.0.13 on LAPTOP-MSNJ2LSA with PID 13984 (D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher\target\classes started by ASUS in D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher)
+2021-11-24 12:05:54.824  INFO 13984 --- [main] c.e.a.T.TopicPublisherApplication        : No active profile set, falling back to default profiles: default
+2021-11-24 12:05:57.182  INFO 13984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-24 12:05:57.200  INFO 13984 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-24 12:05:57.200  INFO 13984 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-24 12:05:57.348  INFO 13984 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-24 12:05:57.349  INFO 13984 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2454 ms
+2021-11-24 12:05:58.271  INFO 13984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-24 12:05:58.293  INFO 13984 --- [main] c.e.a.T.TopicPublisherApplication        : Started TopicPublisherApplication in 3.955 seconds (JVM running for 4.335)
+2021-11-24 12:06:38.892  INFO 13984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-24 12:06:38.893  INFO 13984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-24 12:06:38.895  INFO 13984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-24 12:06:39.443  INFO 13984 --- [http-nio-8080-exec-1] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{destination='topic-1', message='ini baru ya'} published to topic: topic-1 succesfully
+2021-11-24 12:07:36.559  INFO 13984 --- [http-nio-8080-exec-3] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{destination='topic-2', message='ini baru 2'} published to topic: topic-2 succesfully
+2021-11-24 12:11:29.861  INFO 11416 --- [main] c.e.a.T.TopicPublisherApplication        : Starting TopicPublisherApplication using Java 11.0.13 on LAPTOP-MSNJ2LSA with PID 11416 (D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher\target\classes started by ASUS in D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher)
+2021-11-24 12:11:29.864  INFO 11416 --- [main] c.e.a.T.TopicPublisherApplication        : No active profile set, falling back to default profiles: default
+2021-11-24 12:11:31.575  INFO 11416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-24 12:11:31.592  INFO 11416 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-24 12:11:31.592  INFO 11416 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-24 12:11:31.724  INFO 11416 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-24 12:11:31.725  INFO 11416 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1818 ms
+2021-11-24 12:11:32.561  INFO 11416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-24 12:11:32.578  INFO 11416 --- [main] c.e.a.T.TopicPublisherApplication        : Started TopicPublisherApplication in 3.141 seconds (JVM running for 3.538)
+2021-11-24 12:11:36.555  INFO 11416 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-24 12:11:36.556  INFO 11416 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-24 12:11:36.558  INFO 11416 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-24 12:11:50.973  INFO 11416 --- [http-nio-8080-exec-4] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{destination='topic-2', message='ini baru 2'} published to topic: topic-2 succesfully
