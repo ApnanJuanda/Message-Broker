@@ -1,0 +1,5 @@
+com\the\basic\tech\info\activemq\models\Company.class
+com\the\basic\tech\info\activemq\config\ConnectionFactoryConfig.class
+com\the\basic\tech\info\activemq\jms\JmsPublisher.class
+com\the\basic\tech\info\activemq\models\Product.class
+com\the\basic\tech\info\activemq\SpringActiveMqTopicProducerApplication.class

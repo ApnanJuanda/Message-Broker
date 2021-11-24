@@ -3,13 +3,12 @@ package com.example.activemq.TopicPublisher;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-//import org.json.JSONObject;
+
 
 
 /*Local*/
@@ -21,9 +20,6 @@ import com.example.activemq.TopicPublisher.jms.publisherJms;
 public class TopicPublisherApplication {
 	@Autowired
 	publisherJms publisherJms;
-	
-	@Value("${activemq.destination.topic}")
-	String destinationTopic;
 	
 	public static void main(String[] args) {
 		SpringApplication.run(TopicPublisherApplication.class, args);

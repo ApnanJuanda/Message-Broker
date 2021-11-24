@@ -14,7 +14,7 @@ public class publisherJms{
 	
     @Autowired
     JmsTemplate jmsTemplate;
-	
+    
 	public void send(String destination, publisherModel message) {
 		jmsTemplate.convertAndSend(destination, message);
 		logger.info("Message: {} published to topic: {} succesfully", message.toString(), destination);
