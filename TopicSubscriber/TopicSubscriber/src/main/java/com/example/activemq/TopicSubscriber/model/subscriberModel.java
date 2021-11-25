@@ -1,17 +1,9 @@
-package com.example.activemq.TopicPublisher.model;
+package com.example.activemq.TopicSubscriber.model;
 
 
-
-public class publisherModel{
+public class subscriberModel{
 	
 	private String topic_destination;
-	public publisherModel(String topic_destination, String message) {
-		super();
-		this.topic_destination = topic_destination;
-		this.message = message;
-	}
-
-
 	private String message;
 	
 	
