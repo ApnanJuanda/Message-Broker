@@ -1,6 +1,9 @@
 package com.example.activemq.TopicSubscriber.jms;
 
 
+import java.util.Calendar;
+import java.util.Date;
+
 import javax.jms.JMSException;
 import javax.jms.TextMessage;
 
@@ -27,14 +30,12 @@ public class subscriberJms{
 		Gson gson = new Gson();
 		String jsonMessage = gson.toJson(message.getText());
 		model data = gson.fromJson(message.getText(), model.class);
-		messageModel mongo = new messageModel(data.message, data.topic_destination);
-		/*mongo.setCreated(new Date());
-		mongo.setMessage(data.message);
-		mongo.setTopic_from(data.topic_destination);*/
-		repository.save(mongo);
-		System.out.println(data.message); 
-		
+		Calendar calendar = Calendar.getInstance();
+		Date now = calendar.getTime();
+		messageModel mongo = new messageModel(data.topic_destination, data.message, now);
+		repository.save(mongo); //save to mongoDB
 		System.out.println(jsonMessage);
+		System.out.println(data.message); 
 		logger.info("Received '{}'", message.getText());
 	}
 }

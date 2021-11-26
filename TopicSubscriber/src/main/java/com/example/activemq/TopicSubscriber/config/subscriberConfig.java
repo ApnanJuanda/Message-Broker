@@ -39,17 +39,7 @@ public class subscriberConfig{
 	/*
      * Used for receiving Messages.
      */    
-//	@Bean
-//	public JmsListenerContainerFactory<?> jsaFactory(ConnectionFactory connectionFactory,
-//	                                                DefaultJmsListenerContainerFactoryConfigurer configurer) {
-//	    DefaultJmsListenerContainerFactory factory = new DefaultJmsListenerContainerFactory();
-//	    factory.setPubSubDomain(true);
-//	    factory.setErrorHandler(myErrorHandler());
-//	    configurer.configure(factory, connectionFactory);
-//	    return factory;
-//	}
-    
-	
+   
 	@Bean
     public DefaultJmsListenerContainerFactory jmsListenerContainerFactory(
             DefaultJmsListenerContainerFactoryConfigurer configurer,
