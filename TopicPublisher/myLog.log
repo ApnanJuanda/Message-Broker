@@ -134,3 +134,278 @@
 2021-11-25 09:05:44.839  INFO 24712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2021-11-25 09:05:45.194  INFO 24712 --- [http-nio-8080-exec-1] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 1'} published to topic: message-topic succesfully
 2021-11-25 09:06:01.782  INFO 24712 --- [http-nio-8080-exec-3] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 1'} published to topic: message-topic succesfully
+2021-11-25 09:58:20.291  INFO 18656 --- [main] c.e.a.T.TopicPublisherApplication        : Starting TopicPublisherApplication using Java 11.0.13 on LAPTOP-MSNJ2LSA with PID 18656 (D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher\target\classes started by ASUS in D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher)
+2021-11-25 09:58:20.296  INFO 18656 --- [main] c.e.a.T.TopicPublisherApplication        : No active profile set, falling back to default profiles: default
+2021-11-25 09:58:22.808  INFO 18656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 09:58:22.826  INFO 18656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-25 09:58:22.826  INFO 18656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-25 09:58:22.977  INFO 18656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-25 09:58:22.978  INFO 18656 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2578 ms
+2021-11-25 09:58:24.089  INFO 18656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-25 09:58:24.112  INFO 18656 --- [main] c.e.a.T.TopicPublisherApplication        : Started TopicPublisherApplication in 4.822 seconds (JVM running for 5.681)
+2021-11-25 09:58:50.638  INFO 18656 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-25 09:58:50.641  INFO 18656 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-25 09:58:50.644  INFO 18656 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-11-25 09:58:51.216  INFO 18656 --- [http-nio-8080-exec-2] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 1'} published to topic: message-topic succesfully
+2021-11-25 10:37:20.702  INFO 30336 --- [main] c.e.a.T.TopicPublisherApplication        : Starting TopicPublisherApplication using Java 11.0.13 on LAPTOP-MSNJ2LSA with PID 30336 (D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher\target\classes started by ASUS in D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher)
+2021-11-25 10:37:20.711  INFO 30336 --- [main] c.e.a.T.TopicPublisherApplication        : No active profile set, falling back to default profiles: default
+2021-11-25 10:37:25.531  INFO 30336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 10:37:25.566  INFO 30336 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-25 10:37:25.568  INFO 30336 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-25 10:37:25.793  INFO 30336 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-25 10:37:25.793  INFO 30336 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4821 ms
+2021-11-25 10:37:27.464  INFO 30336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-25 10:37:27.503  INFO 30336 --- [main] c.e.a.T.TopicPublisherApplication        : Started TopicPublisherApplication in 8.156 seconds (JVM running for 9.244)
+2021-11-25 10:44:34.815  INFO 30336 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-25 10:44:34.817  INFO 30336 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-25 10:44:34.818  INFO 30336 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-25 10:44:35.122  INFO 30336 --- [http-nio-8080-exec-2] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='topic-1', message='ini baru 1'} published to topic: topic-1 succesfully
+2021-11-25 10:45:41.572  INFO 30336 --- [http-nio-8080-exec-5] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='topic-1', message='ini baru 1'} published to topic: topic-1 succesfully
+2021-11-25 10:46:13.555  INFO 30336 --- [http-nio-8080-exec-6] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 1'} published to topic: message-topic succesfully
+2021-11-25 10:56:21.474  INFO 26140 --- [main] c.e.a.T.TopicPublisherApplication        : Starting TopicPublisherApplication using Java 11.0.13 on LAPTOP-MSNJ2LSA with PID 26140 (D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher\target\classes started by ASUS in D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher)
+2021-11-25 10:56:21.476  INFO 26140 --- [main] c.e.a.T.TopicPublisherApplication        : No active profile set, falling back to default profiles: default
+2021-11-25 10:56:22.792  INFO 26140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 10:56:22.808  INFO 26140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-25 10:56:22.808  INFO 26140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-25 10:56:22.958  INFO 26140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-25 10:56:22.958  INFO 26140 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1435 ms
+2021-11-25 10:56:24.032  INFO 26140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-25 10:56:24.060  INFO 26140 --- [main] c.e.a.T.TopicPublisherApplication        : Started TopicPublisherApplication in 3.021 seconds (JVM running for 3.467)
+2021-11-25 10:56:33.976  INFO 26140 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-25 10:56:33.978  INFO 26140 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-25 10:56:33.980  INFO 26140 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-11-25 10:56:34.316  INFO 26140 --- [http-nio-8080-exec-2] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 1'} published to topic: message-topic succesfully
+2021-11-25 10:57:34.143  INFO 26140 --- [http-nio-8080-exec-3] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 1'} published to topic: message-topic succesfully
+2021-11-25 10:58:44.661  INFO 26140 --- [http-nio-8080-exec-6] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 1'} published to topic: message-topic succesfully
+2021-11-25 10:58:53.182  INFO 26140 --- [http-nio-8080-exec-7] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 1'} published to topic: message-topic succesfully
+2021-11-25 11:03:19.535  INFO 14328 --- [main] c.e.a.T.TopicPublisherApplication        : Starting TopicPublisherApplication using Java 11.0.13 on LAPTOP-MSNJ2LSA with PID 14328 (D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher\target\classes started by ASUS in D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher)
+2021-11-25 11:03:19.537  INFO 14328 --- [main] c.e.a.T.TopicPublisherApplication        : No active profile set, falling back to default profiles: default
+2021-11-25 11:03:21.687  INFO 14328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 11:03:21.706  INFO 14328 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-25 11:03:21.707  INFO 14328 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-25 11:03:21.905  INFO 14328 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-25 11:03:21.906  INFO 14328 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2315 ms
+2021-11-25 11:03:23.105  INFO 14328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-25 11:03:23.125  INFO 14328 --- [main] c.e.a.T.TopicPublisherApplication        : Started TopicPublisherApplication in 4.008 seconds (JVM running for 4.405)
+2021-11-25 11:03:28.454  INFO 14328 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-25 11:03:28.454  INFO 14328 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-25 11:03:28.456  INFO 14328 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-25 11:03:28.817  INFO 14328 --- [http-nio-8080-exec-2] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 1'} published to topic: message-topic succesfully
+2021-11-25 11:21:55.955  INFO 14328 --- [http-nio-8080-exec-5] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 1'} published to topic: message-topic succesfully
+2021-11-25 11:37:05.747  INFO 14328 --- [http-nio-8080-exec-8] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 1'} published to topic: message-topic succesfully
+2021-11-25 11:41:41.486  INFO 14328 --- [http-nio-8080-exec-1] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 1'} published to topic: message-topic succesfully
+2021-11-25 11:42:54.587  INFO 14328 --- [http-nio-8080-exec-4] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 1'} published to topic: message-topic succesfully
+2021-11-25 11:46:49.764  INFO 14328 --- [http-nio-8080-exec-7] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 1'} published to topic: message-topic succesfully
+2021-11-25 11:47:35.732  INFO 14328 --- [http-nio-8080-exec-8] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 1'} published to topic: message-topic succesfully
+2021-11-25 12:05:00.879  INFO 14328 --- [http-nio-8080-exec-1] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 1'} published to topic: message-topic succesfully
+2021-11-25 12:06:04.001  INFO 14328 --- [http-nio-8080-exec-4] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 1'} published to topic: message-topic succesfully
+2021-11-25 12:07:23.638  INFO 14328 --- [http-nio-8080-exec-7] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 2'} published to topic: message-topic succesfully
+2021-11-25 12:10:16.347  INFO 14328 --- [http-nio-8080-exec-10] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 2'} published to topic: message-topic succesfully
+2021-11-25 12:17:19.530  INFO 14328 --- [http-nio-8080-exec-3] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 2'} published to topic: message-topic succesfully
+2021-11-25 12:19:01.708  INFO 14328 --- [http-nio-8080-exec-5] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 2'} published to topic: message-topic succesfully
+2021-11-25 12:19:08.574  INFO 14328 --- [http-nio-8080-exec-7] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 2'} published to topic: message-topic succesfully
+2021-11-25 12:19:32.204  INFO 14328 --- [http-nio-8080-exec-8] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 2'} published to topic: message-topic succesfully
+2021-11-25 12:20:23.478  INFO 14328 --- [http-nio-8080-exec-9] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 2'} published to topic: message-topic succesfully
+2021-11-25 12:21:10.593  INFO 14328 --- [http-nio-8080-exec-10] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 2'} published to topic: message-topic succesfully
+2021-11-25 12:22:45.029  INFO 21720 --- [main] c.e.a.T.TopicPublisherApplication        : Starting TopicPublisherApplication using Java 11.0.13 on LAPTOP-MSNJ2LSA with PID 21720 (D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher\target\classes started by ASUS in D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher)
+2021-11-25 12:22:45.031  INFO 21720 --- [main] c.e.a.T.TopicPublisherApplication        : No active profile set, falling back to default profiles: default
+2021-11-25 12:22:47.314  INFO 21720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 12:22:47.333  INFO 21720 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-25 12:22:47.334  INFO 21720 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-25 12:22:47.530  INFO 21720 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-25 12:22:47.531  INFO 21720 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2442 ms
+2021-11-25 12:22:48.455  WARN 21720 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-11-25 12:22:48.476  INFO 21720 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-11-25 12:22:48.527  INFO 21720 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-25 12:22:48.578 ERROR 21720 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-11-25 12:23:00.581  INFO 6300 --- [main] c.e.a.T.TopicPublisherApplication        : Starting TopicPublisherApplication using Java 11.0.13 on LAPTOP-MSNJ2LSA with PID 6300 (D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher\target\classes started by ASUS in D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher)
+2021-11-25 12:23:00.586  INFO 6300 --- [main] c.e.a.T.TopicPublisherApplication        : No active profile set, falling back to default profiles: default
+2021-11-25 12:23:03.180  INFO 6300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 12:23:03.197  INFO 6300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-25 12:23:03.198  INFO 6300 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-25 12:23:03.345  INFO 6300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-25 12:23:03.345  INFO 6300 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2670 ms
+2021-11-25 12:23:04.317  INFO 6300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-25 12:23:04.338  INFO 6300 --- [main] c.e.a.T.TopicPublisherApplication        : Started TopicPublisherApplication in 4.361 seconds (JVM running for 4.87)
+2021-11-25 12:23:08.074  INFO 6300 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-25 12:23:08.075  INFO 6300 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-25 12:23:08.077  INFO 6300 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-25 12:23:08.469  INFO 6300 --- [http-nio-8080-exec-2] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 2'} published to topic: message-topic succesfully
+2021-11-25 12:26:45.140  INFO 10008 --- [main] c.e.a.T.TopicPublisherApplication        : Starting TopicPublisherApplication using Java 11.0.13 on LAPTOP-MSNJ2LSA with PID 10008 (D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher\target\classes started by ASUS in D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher)
+2021-11-25 12:26:45.143  INFO 10008 --- [main] c.e.a.T.TopicPublisherApplication        : No active profile set, falling back to default profiles: default
+2021-11-25 12:26:47.418  INFO 10008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 12:26:47.435  INFO 10008 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-25 12:26:47.436  INFO 10008 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-25 12:26:47.578  INFO 10008 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-25 12:26:47.579  INFO 10008 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2365 ms
+2021-11-25 12:26:48.478  INFO 10008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-25 12:26:48.500  INFO 10008 --- [main] c.e.a.T.TopicPublisherApplication        : Started TopicPublisherApplication in 3.815 seconds (JVM running for 4.234)
+2021-11-25 12:26:51.565  INFO 10008 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-25 12:26:51.567  INFO 10008 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-25 12:26:51.569  INFO 10008 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-11-25 12:26:51.920  INFO 10008 --- [http-nio-8080-exec-1] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 2'} published to topic: message-topic succesfully
+2021-11-25 12:27:52.561  INFO 10008 --- [http-nio-8080-exec-5] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='ini baru 2'} published to topic: message-topic succesfully
+2021-11-25 13:45:41.807  INFO 10008 --- [http-nio-8080-exec-8] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='core-topic', message='ini baru 2'} published to topic: core-topic succesfully
+2021-11-25 16:41:22.193  INFO 1532 --- [main] c.e.a.T.TopicPublisherApplication        : Starting TopicPublisherApplication using Java 11.0.13 on LAPTOP-MSNJ2LSA with PID 1532 (D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher\target\classes started by ASUS in D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher)
+2021-11-25 16:41:22.198  INFO 1532 --- [main] c.e.a.T.TopicPublisherApplication        : No active profile set, falling back to default profiles: default
+2021-11-25 16:41:24.936  INFO 1532 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 16:41:24.953  INFO 1532 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-25 16:41:24.954  INFO 1532 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-25 16:41:25.113  INFO 1532 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-25 16:41:25.114  INFO 1532 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2821 ms
+2021-11-25 16:41:26.195  INFO 1532 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-25 16:41:26.215  INFO 1532 --- [main] c.e.a.T.TopicPublisherApplication        : Started TopicPublisherApplication in 4.825 seconds (JVM running for 5.47)
+2021-11-25 16:41:59.516  INFO 1532 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-25 16:41:59.517  INFO 1532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-25 16:41:59.518  INFO 1532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-25 16:41:59.855  INFO 1532 --- [http-nio-8080-exec-1] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='core-topic-update', message='new message'} published to topic: core-topic-update succesfully
+2021-11-25 16:52:27.157  INFO 23528 --- [main] c.e.a.T.TopicPublisherApplication        : Starting TopicPublisherApplication using Java 11.0.13 on LAPTOP-MSNJ2LSA with PID 23528 (D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher\target\classes started by ASUS in D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher)
+2021-11-25 16:52:27.160  INFO 23528 --- [main] c.e.a.T.TopicPublisherApplication        : No active profile set, falling back to default profiles: default
+2021-11-25 16:52:28.596  INFO 23528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 16:52:28.607  INFO 23528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-25 16:52:28.607  INFO 23528 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-25 16:52:28.687  INFO 23528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-25 16:52:28.687  INFO 23528 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1480 ms
+2021-11-25 16:52:29.445  INFO 23528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-25 16:52:29.480  INFO 23528 --- [main] c.e.a.T.TopicPublisherApplication        : Started TopicPublisherApplication in 2.781 seconds (JVM running for 3.192)
+2021-11-25 16:52:34.066  INFO 23528 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-25 16:52:34.068  INFO 23528 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-25 16:52:34.069  INFO 23528 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-25 16:52:34.478  INFO 23528 --- [http-nio-8080-exec-2] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='core-topic-update', message='new message'} published to topic: core-topic-update succesfully
+2021-11-25 16:59:56.173  INFO 23528 --- [http-nio-8080-exec-5] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 17:01:33.001  INFO 23528 --- [http-nio-8080-exec-8] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 17:18:18.862  INFO 2952 --- [main] c.e.a.T.TopicPublisherApplication        : Starting TopicPublisherApplication using Java 11.0.13 on LAPTOP-MSNJ2LSA with PID 2952 (D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher\target\classes started by ASUS in D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher)
+2021-11-25 17:18:18.866  INFO 2952 --- [main] c.e.a.T.TopicPublisherApplication        : No active profile set, falling back to default profiles: default
+2021-11-25 17:18:21.419  INFO 2952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 17:18:21.437  INFO 2952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-25 17:18:21.437  INFO 2952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-25 17:18:21.604  INFO 2952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-25 17:18:21.605  INFO 2952 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2667 ms
+2021-11-25 17:18:22.484  INFO 2952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-25 17:18:22.509  INFO 2952 --- [main] c.e.a.T.TopicPublisherApplication        : Started TopicPublisherApplication in 4.172 seconds (JVM running for 4.645)
+2021-11-25 17:18:26.984  INFO 2952 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-25 17:18:26.985  INFO 2952 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-25 17:18:26.986  INFO 2952 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-25 17:19:56.761  INFO 26900 --- [main] c.e.a.T.TopicPublisherApplication        : Starting TopicPublisherApplication using Java 11.0.13 on LAPTOP-MSNJ2LSA with PID 26900 (D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher\target\classes started by ASUS in D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher)
+2021-11-25 17:19:56.763  INFO 26900 --- [main] c.e.a.T.TopicPublisherApplication        : No active profile set, falling back to default profiles: default
+2021-11-25 17:19:58.634  INFO 26900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 17:19:58.655  INFO 26900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-25 17:19:58.655  INFO 26900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-25 17:19:58.822  INFO 26900 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-25 17:19:58.822  INFO 26900 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2008 ms
+2021-11-25 17:19:59.697  INFO 26900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-25 17:19:59.722  INFO 26900 --- [main] c.e.a.T.TopicPublisherApplication        : Started TopicPublisherApplication in 3.393 seconds (JVM running for 3.891)
+2021-11-25 17:20:02.904  INFO 26900 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-25 17:20:02.906  INFO 26900 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-25 17:20:02.906  INFO 26900 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-11-25 17:20:03.268  INFO 26900 --- [http-nio-8080-exec-1] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 17:27:22.264  INFO 26900 --- [http-nio-8080-exec-5] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 17:38:34.867  INFO 26900 --- [http-nio-8080-exec-8] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 18:31:44.456  INFO 26900 --- [http-nio-8080-exec-2] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topicc', message='new message'} published to topic: message-topicc succesfully
+2021-11-25 18:59:49.307  INFO 26900 --- [http-nio-8080-exec-4] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 19:00:25.080  INFO 26900 --- [http-nio-8080-exec-5] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 19:00:57.476  INFO 26900 --- [http-nio-8080-exec-6] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 19:01:36.209  INFO 26900 --- [http-nio-8080-exec-7] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 19:02:21.206  INFO 26900 --- [http-nio-8080-exec-8] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 19:04:09.105  INFO 26900 --- [http-nio-8080-exec-2] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 19:08:31.319  INFO 26900 --- [http-nio-8080-exec-4] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 19:08:56.792  INFO 26900 --- [http-nio-8080-exec-5] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 19:09:35.371  INFO 26900 --- [http-nio-8080-exec-6] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 19:09:56.417  INFO 26900 --- [http-nio-8080-exec-7] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 19:10:08.549  INFO 26900 --- [http-nio-8080-exec-8] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 19:10:23.475  INFO 26900 --- [http-nio-8080-exec-9] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 19:11:18.831  INFO 26900 --- [http-nio-8080-exec-10] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 19:12:46.379  INFO 26900 --- [http-nio-8080-exec-3] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 20:13:34.543  INFO 10792 --- [main] c.e.a.T.TopicPublisherApplication        : Starting TopicPublisherApplication using Java 11.0.13 on LAPTOP-MSNJ2LSA with PID 10792 (D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher\target\classes started by ASUS in D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher)
+2021-11-25 20:13:34.550  INFO 10792 --- [main] c.e.a.T.TopicPublisherApplication        : No active profile set, falling back to default profiles: default
+2021-11-25 20:13:38.115  INFO 10792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 20:13:38.141  INFO 10792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-25 20:13:38.142  INFO 10792 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-25 20:13:38.346  INFO 10792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-25 20:13:38.348  INFO 10792 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3653 ms
+2021-11-25 20:13:39.489  INFO 10792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-25 20:13:39.516  INFO 10792 --- [main] c.e.a.T.TopicPublisherApplication        : Started TopicPublisherApplication in 6.363 seconds (JVM running for 7.737)
+2021-11-25 20:14:00.641  INFO 10792 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-25 20:14:00.642  INFO 10792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-25 20:14:00.643  INFO 10792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-25 20:14:01.164  INFO 10792 --- [http-nio-8080-exec-1] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 20:15:08.878  INFO 10792 --- [http-nio-8080-exec-5] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 20:15:14.981  INFO 10792 --- [http-nio-8080-exec-6] c.e.a.TopicPublisher.jms.publisherJms    : Message: SystemMessage{topic_destination='message-topic', message='new message'} published to topic: message-topic succesfully
+2021-11-25 20:16:16.740  INFO 33204 --- [main] c.e.a.T.TopicPublisherApplication        : Starting TopicPublisherApplication using Java 11.0.13 on LAPTOP-MSNJ2LSA with PID 33204 (D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher\target\classes started by ASUS in D:\Jatis Mobile\coreSystem\TopicPublisher\TopicPublisher)
+2021-11-25 20:16:16.744  INFO 33204 --- [main] c.e.a.T.TopicPublisherApplication        : No active profile set, falling back to default profiles: default
+2021-11-25 20:16:19.482  INFO 33204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 20:16:19.502  INFO 33204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-25 20:16:19.502  INFO 33204 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-25 20:16:19.664  INFO 33204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-25 20:16:19.664  INFO 33204 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2839 ms
+2021-11-25 20:16:20.646  INFO 33204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-25 20:16:20.671  INFO 33204 --- [main] c.e.a.T.TopicPublisherApplication        : Started TopicPublisherApplication in 4.626 seconds (JVM running for 5.1)
+2021-11-25 20:16:25.190  INFO 33204 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-25 20:16:25.191  INFO 33204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-25 20:16:25.192  INFO 33204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-25 20:16:25.614  INFO 33204 --- [http-nio-8080-exec-1] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 20:17:17.473  INFO 33204 --- [http-nio-8080-exec-3] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 20:18:21.013  INFO 33204 --- [http-nio-8080-exec-6] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 20:35:50.417  INFO 33204 --- [http-nio-8080-exec-9] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 20:36:48.923  INFO 33204 --- [http-nio-8080-exec-10] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 20:38:26.895  INFO 33204 --- [http-nio-8080-exec-3] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 20:39:24.859  INFO 33204 --- [http-nio-8080-exec-4] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 20:41:05.452  INFO 33204 --- [http-nio-8080-exec-7] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 20:44:34.423  INFO 33204 --- [http-nio-8080-exec-10] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 20:46:11.618  INFO 33204 --- [http-nio-8080-exec-3] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 20:49:57.111  INFO 33204 --- [http-nio-8080-exec-6] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 20:51:03.465  INFO 33204 --- [http-nio-8080-exec-9] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 20:56:42.097  INFO 33204 --- [http-nio-8080-exec-1] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 20:56:53.544  INFO 33204 --- [http-nio-8080-exec-3] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 20:57:00.339  INFO 33204 --- [http-nio-8080-exec-4] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:00:20.149  INFO 33204 --- [http-nio-8080-exec-7] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:04:08.819  INFO 33204 --- [http-nio-8080-exec-10] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:09:37.941  INFO 33204 --- [http-nio-8080-exec-3] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:16:16.259  INFO 33204 --- [http-nio-8080-exec-6] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:16:56.539  INFO 33204 --- [http-nio-8080-exec-7] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:33:11.783  INFO 33204 --- [http-nio-8080-exec-10] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:34:17.483  INFO 33204 --- [http-nio-8080-exec-3] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:35:29.215  INFO 33204 --- [http-nio-8080-exec-6] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:36:52.061  INFO 33204 --- [http-nio-8080-exec-9] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:37:53.810  INFO 33204 --- [http-nio-8080-exec-1] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:38:23.507  INFO 33204 --- [http-nio-8080-exec-3] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:39:00.250  INFO 33204 --- [http-nio-8080-exec-4] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:41:45.372  INFO 33204 --- [http-nio-8080-exec-7] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:42:01.232  INFO 33204 --- [http-nio-8080-exec-8] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:46:18.805  INFO 33204 --- [http-nio-8080-exec-2] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:47:40.319  INFO 33204 --- [http-nio-8080-exec-3] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:52:00.533  INFO 33204 --- [http-nio-8080-exec-6] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 21:54:35.634  INFO 33204 --- [http-nio-8080-exec-10] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 22:00:28.762  INFO 33204 --- [http-nio-8080-exec-4] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 22:01:09.449  INFO 33204 --- [http-nio-8080-exec-3] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 22:04:07.846  INFO 33204 --- [http-nio-8080-exec-6] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 22:05:03.102  INFO 33204 --- [http-nio-8080-exec-8] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message"} published to topic: message-topic succesfully
+2021-11-25 22:05:35.368  INFO 33204 --- [http-nio-8080-exec-9] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message update"} published to topic: message-topic succesfully
+2021-11-25 22:08:31.096  INFO 33204 --- [http-nio-8080-exec-1] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message update"} published to topic: message-topic succesfully
+2021-11-25 22:09:32.727  INFO 33204 --- [http-nio-8080-exec-3] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message update"} published to topic: message-topic succesfully
+2021-11-25 22:10:19.173  INFO 33204 --- [http-nio-8080-exec-7] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message update"} published to topic: message-topic succesfully
+2021-11-25 22:10:50.636  INFO 33204 --- [http-nio-8080-exec-6] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message update"} published to topic: message-topic succesfully
+2021-11-25 22:11:38.569  INFO 33204 --- [http-nio-8080-exec-8] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message update"} published to topic: message-topic succesfully
+2021-11-25 22:13:07.793  INFO 33204 --- [http-nio-8080-exec-2] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message update baru"} published to topic: message-topic succesfully
+2021-11-25 22:13:49.947  INFO 33204 --- [http-nio-8080-exec-1] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"new message update baru"} published to topic: message-topic succesfully
+2021-11-25 22:14:19.860  INFO 33204 --- [http-nio-8080-exec-4] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"ini terbaru loh bro"} published to topic: message-topic succesfully
+2021-11-25 22:25:47.860  INFO 33204 --- [http-nio-8080-exec-7] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"ini terbaru loh bro"} published to topic: message-topic succesfully
+2021-11-25 22:26:18.649  INFO 33204 --- [http-nio-8080-exec-6] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"ini udah malam"} published to topic: message-topic succesfully
+2021-11-25 22:31:02.960  INFO 33204 --- [http-nio-8080-exec-10] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"ini udah malam"} published to topic: message-topic succesfully
+2021-11-25 22:32:06.593  INFO 33204 --- [http-nio-8080-exec-1] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"ini udah malam"} published to topic: message-topic succesfully
+2021-11-25 22:33:59.697  INFO 33204 --- [http-nio-8080-exec-7] c.e.a.TopicPublisher.jms.publisherJms    : Message: {"topic_destination":"message-topic","message":"ini udah malam"} published to topic: message-topic succesfully

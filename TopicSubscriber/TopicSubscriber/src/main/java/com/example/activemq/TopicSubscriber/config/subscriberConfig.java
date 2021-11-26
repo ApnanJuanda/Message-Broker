@@ -7,15 +7,12 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.jms.DefaultJmsListenerContainerFactoryConfigurer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.jms.annotation.EnableJms;
 import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
-import org.springframework.jms.config.JmsListenerContainerFactory;
-import org.springframework.jms.support.converter.MappingJackson2MessageConverter;
-import org.springframework.jms.support.converter.MessageConverter;
-import org.springframework.jms.support.converter.MessageType;
 import org.springframework.util.ErrorHandler;
 
-
 @Configuration
+@EnableJms
 public class subscriberConfig{
 	@Value("${activemq.broker.url}")
 	String brokerUrl;
@@ -37,29 +34,21 @@ public class subscriberConfig{
         connectionFactory.setPassword(password);
         return connectionFactory;
     }
-    
-    @Bean // Serialize message content to json using TextMessage
-	public MessageConverter jacksonJmsMessageConverter() {
-	    MappingJackson2MessageConverter converter = new MappingJackson2MessageConverter();
-	    converter.setTargetType(MessageType.TEXT);
-	    converter.setTypeIdPropertyName("_type");
-	    return converter;
-	}
+
     
 	/*
      * Used for receiving Messages.
-     */
-
-    
+     */    
 //	@Bean
 //	public JmsListenerContainerFactory<?> jsaFactory(ConnectionFactory connectionFactory,
 //	                                                DefaultJmsListenerContainerFactoryConfigurer configurer) {
 //	    DefaultJmsListenerContainerFactory factory = new DefaultJmsListenerContainerFactory();
 //	    factory.setPubSubDomain(true);
-//	    factory.setMessageConverter(jacksonJmsMessageConverter());
+//	    factory.setErrorHandler(myErrorHandler());
 //	    configurer.configure(factory, connectionFactory);
 //	    return factory;
 //	}
+    
 	
 	@Bean
     public DefaultJmsListenerContainerFactory jmsListenerContainerFactory(
@@ -70,9 +59,9 @@ public class subscriberConfig{
         configurer.configure(factory, connectionFactory);
         factory.setErrorHandler(myErrorHandler);
         factory.setPubSubDomain(true);
-	    factory.setMessageConverter(jacksonJmsMessageConverter());
         return factory;
     }
+	
 
     @Bean
     public ErrorHandler myErrorHandler() {

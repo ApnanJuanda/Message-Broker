@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.core.JmsTemplate;
+import com.google.gson.Gson;
 
 import com.example.activemq.TopicPublisher.model.publisherModel;
 
@@ -16,10 +17,11 @@ public class publisherJms{
     JmsTemplate jmsTemplate;
     
 	public void send(String destination, publisherModel message) {
-		jmsTemplate.convertAndSend(destination, message);
-		logger.info("Message: {} published to topic: {} succesfully", message.toString(), destination);
+		Gson gson = new Gson();
+		String jsonMessage = gson.toJson(message);
+		jmsTemplate.convertAndSend(destination, jsonMessage);
+		logger.info("Message: {} published to topic: {} succesfully", jsonMessage, destination);
 	
-	}
-	
+	}	
     
 }

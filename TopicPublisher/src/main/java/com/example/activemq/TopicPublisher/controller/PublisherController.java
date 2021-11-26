@@ -25,9 +25,4 @@ import com.example.activemq.TopicPublisher.model.publisherModel;
 			}
 		}
 		
-		//Without status code and exception error
-		/*public String sendMessage(@RequestBody publisherModel message) {
-			publisherJms.send(destinationTopic, message);
-			return "success";
-		}*/
 	}

@@ -1,19 +1,22 @@
 package com.example.activemq.TopicPublisher.model;
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
-
+@JsonIdentityInfo(generator = ObjectIdGenerators.IntSequenceGenerator.class, property = "@id", scope = publisherModel.class)
 public class publisherModel{
+	//private static final long serialVersionUID = 1L;
 	
 	private String topic_destination;
-	public publisherModel(String topic_destination, String message) {
-		super();
-		this.topic_destination = topic_destination;
-		this.message = message;
-	}
-
-
 	private String message;
 	
+	public publisherModel(){
+    }
+    
+    public publisherModel(String topic_destination, String message){
+    	this.topic_destination = topic_destination;
+    	this.message = message;
+    }
 	
 	    
 	public String getTopic_destination() {
